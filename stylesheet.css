@@ -1,0 +1,59 @@
+body, html {
+  background-image: url("assets/images/hero-photo.jpg");
+  height: 100%;
+   height: 100%;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, p {
+  color: #fff;
+  text-shadow: 1px 1px #222;
+}
+
+.container-fluid {
+  background: rgba(0, 0, 0, .5);
+  height: 100%;
+}
+
+.text-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.navbar {
+      margin-bottom: 0;
+      background-color: rgba(0, 0, 0, .4);
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  
+  
+.navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #000 !important;
+      background-color: #fff !important;
+      border-style: inset;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+ 
+.btn {
+  background-color: grey;
+  text-shadow: 1px 1px #222;
+}
+
