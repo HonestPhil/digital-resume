@@ -42,7 +42,7 @@ h1, h3, p {
 .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
   }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
+  .navbar-nav li a:hover, .navbar-nav li:active a {
       color: #000 !important;
       background-color: #fff !important;
       border-style: inset;
