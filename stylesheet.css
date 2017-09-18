@@ -52,6 +52,9 @@ h1, h3, p {
       border-color: transparent;
       color: #fff !important;
   }
+  .navbar-nav>li>a {
+    line-height: 3px;
+  }
  
 .btn {
   background-color: grey;
@@ -59,5 +62,6 @@ h1, h3, p {
   height: 20px;
   padding: 10px;
   margin: 10px;
+  line-height: 5px;
 }
 
