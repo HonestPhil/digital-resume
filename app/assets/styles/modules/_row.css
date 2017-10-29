@@ -1,0 +1,10 @@
+.row {
+    
+    
+    &__4 {
+        float: left;
+        margin: auto;
+        padding: 35px;
+        width: 33%;
+    }
+}
